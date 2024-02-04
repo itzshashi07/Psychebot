@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('./assets/bg5.png');
+   background-repeat: no-repeat;
+   background-size:cover
+}
+
+
+
+.error {
+  @apply text-[14px] text-[#E71C23] absolute;
+}
+
+.botText {
+  background: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+  background-clip: text;
+  color: transparent;
+  font-size: 64px;
+  text-align: center;
+  font-weight: 800;
+}
+.text-animate {
+  background: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+  background-clip: text;
+  color: transparent;
+}
+.cardText {
+  background: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+  background-clip: text;
+  color: transparent;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 800;
+  align-items: center;
+  @apply my-2;
+}
+.botChatText {
+  background: linear-gradient(to right, #2af598 0%, #009efd 100%);
+  background-clip: text;
+  color: transparent;
+  font-size: 44px;
+  text-align: center;
+  font-weight: 800;
+}
+.cardText1 {
+  background: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+  background-clip: text;
+  color: transparent;
+  font-size: 44px;
+  text-align: center;
+  font-weight: 800;
+  align-items: center;
+  @apply my-6;
+}
+
+.cs-chat-container .cs-message-input{
+  border: 2px solid #30cfd0  !important
+}
+.cs-message-input__content-editor{
+  background:linear-gradient(to right, #868f96 0%, #596164 100%) !important;
+}
+.cs-message-input__content-editor-wrapper{
+  background:linear-gradient(to right, #868f96 0%, #596164 100%) !important;
+}
+.cs-message-input__tools{
+  border: 2px solid #30cfd0  !important;
+  border-radius:100% !important;
+  padding:4px  !important
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #30cfd0;
+}
