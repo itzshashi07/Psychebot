@@ -17,6 +17,7 @@ const Exercise = () => {
                                             </div>
                                  </div>
                       </div>
+                      
            );
 };
 
