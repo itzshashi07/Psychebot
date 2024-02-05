@@ -1,0 +1,109 @@
+{
+    "exercises": [
+        {
+            "name": "Push-ups",
+            "description": "Strengthen your upper body with this classic exercise. Start in a plank position, lower your body until your chest nearly touches the ground, then push back up.",
+            "image": "https://example.com/push-ups.jpg"
+        },
+        {
+            "name": "Squats",
+            "description": "Work your lower body by squatting down as if sitting in a chair, then standing back up. Keep your back straight and knees aligned with your toes.",
+            "image": "https://example.com/squats.jpg"
+        },
+        {
+            "name": "Plank",
+            "description": "Engage your core muscles by holding a plank position, with your body in a straight line from head to heels. Aim to hold for as long as possible.",
+            "image": "https://example.com/plank.jpg"
+        },
+        {
+            "name": "Lunges",
+            "description": "Target your legs and glutes with lunges. Step forward with one leg, lowering your body until both knees are bent at a 90-degree angle, then return to standing.",
+            "image": "https://example.com/lunges.jpg"
+        },
+        {
+            "name": "Burpees",
+            "description": "Get your heart rate up with burpees. Begin in a standing position, drop into a squat, kick your feet back into a plank, do a push-up, then jump back to standing.",
+            "image": "https://example.com/burpees.jpg"
+        },
+        {
+            "name": "Bicycle Crunches",
+            "description": "Work your abs with bicycle crunches. Lie on your back, bring your knees up, and perform a cycling motion with your legs while twisting your torso to touch your elbow to the opposite knee.",
+            "image": "https://example.com/bicycle-crunches.jpg"
+        },
+        {
+            "name": "Jumping Jacks",
+            "description": "Warm up and improve cardiovascular fitness with jumping jacks. Jump your legs out while raising your arms overhead, then jump back to the starting position.",
+            "image": "https://example.com/jumping-jacks.jpg"
+        },
+        {
+            "name": "Mountain Climbers",
+            "description": "Challenge your core and cardio with mountain climbers. Start in a plank position, then alternate bringing your knees towards your chest in a running motion.",
+            "image": "https://example.com/mountain-climbers.jpg"
+        },
+        {
+            "name": "Russian Twists",
+            "description": "Strengthen your obliques with Russian twists. Sit on the ground, lean back slightly, lift your feet off the ground, and twist your torso from side to side while holding a weight or your hands together.",
+            "image": "https://example.com/russian-twists.jpg"
+        },
+        {
+            "name": "Dumbbell Rows",
+            "description": "Build upper body strength with dumbbell rows. Stand with a dumbbell in each hand, hinge forward at the hips, and pull the weights up towards your chest, squeezing your shoulder blades together.",
+            "image": "https://example.com/dumbbell-rows.jpg"
+        },
+        {
+            "name": "Wall Sits",
+            "description": "Strengthen your leg muscles with wall sits. Sit against a wall with your knees at a 90-degree angle and hold the position for as long as possible.",
+            "image": "https://example.com/wall-sits.jpg"
+        },
+        {
+            "name": "Push-up Variations",
+            "description": "Add variety to your push-up routine with variations like wide grip, close grip, or incline push-ups to target different areas of the chest and arms.",
+            "image": "https://example.com/push-up-variations.jpg"
+        },
+        {
+            "name": "Deadlifts",
+            "description": "Build lower body and back strength with deadlifts. Stand with feet hip-width apart, hinge at the hips, and lower the weights towards the ground while keeping your back straight, then return to standing.",
+            "image": "https://example.com/deadlifts.jpg"
+        },
+        {
+            "name": "Leg Raises",
+            "description": "Target your lower abs with leg raises. Lie on your back, raise your legs towards the ceiling, then slowly lower them back down without letting them touch the ground.",
+            "image": "https://example.com/leg-raises.jpg"
+        },
+        {
+            "name": "Jump Squats",
+            "description": "Add explosiveness to your squat routine with jump squats. Perform a regular squat, then explode upwards into a jump before returning to the squat position.",
+            "image": "https://example.com/jump-squats.jpg"
+        },
+        {
+            "name": "Tricep Dips",
+            "description": "Tone the back of your arms with tricep dips. Sit on the edge of a chair or bench, place your hands next to your hips, and lift your body off the seat, then bend your elbows to lower your body towards the ground.",
+            "image": "https://example.com/tricep-dips.jpg"
+        },
+        {
+            "name": "High Knees",
+            "description": "Boost your heart rate and work your lower body with high knees. Run in place while lifting your knees as high as possible towards your chest.",
+            "image": "https://example.com/high-knees.jpg"
+        },
+        {
+            "name": "Calf Raises",
+            "description": "Strengthen your calf muscles with calf raises. Stand with feet hip-width apart, raise onto the balls of your feet, then lower back down.",
+            "image": "https://example.com/calf-raises.jpg"
+        },
+        {
+            "name": "Skipping Rope",
+            "description": "Burn calories and improve coordination with skipping rope exercises. Jump over the rope with both feet, aiming for a steady rhythm.",
+            "image": "https://example.com/skipping-rope.jpg"
+        },
+        {
+            "name": "Side Planks",
+            "description": "Work your obliques and core stability with side planks. Lie on your side with legs stacked, prop yourself up on one forearm, and lift your hips off the ground, creating a straight line from head to heels.",
+            "image": "https://example.com/side-planks.jpg"
+        },
+        {
+            "name": "Reverse Lunges",
+            "description": "Target your glutes and hamstrings with reverse lunges. Step backward with one leg, lowering your body until both knees are bent at a 90-degree angle, then return to standing.",
+            "image": "https://example.com/reverse-lunges.jpg"
+        }
+    ]
+}
