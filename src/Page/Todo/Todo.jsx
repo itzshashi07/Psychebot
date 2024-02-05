@@ -41,7 +41,7 @@ const Todo = () => {
                     : '',
                 })}
               >
-                <li className="m-4  font-[800]  rounded-[48px] ">
+                <li className="m-3  font-[800]  rounded-[48px] ">
                   Add
                 </li>
               </NavLink>
@@ -56,7 +56,7 @@ const Todo = () => {
                     : '',
                 })}
               >
-                <li className="m-4 font-[800]  rounded-[48px] ">
+                <li className="m-3 font-[800]  rounded-[48px] ">
                   List
                 </li>
               </NavLink>

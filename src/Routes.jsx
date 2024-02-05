@@ -13,6 +13,7 @@ import Todo from './Page/Todo/Todo';
 import TodoList from './Page/Todo/TodoList';
 import AddTodo from './Page/Todo/AddTodo';
 import Exercise from './Page/Exercise';
+import PsychologicalThoughts from './Page/PsychologicalThoughts';
 export const Routes = createRoutesFromElements(
            <>
                       <Route path="/" element={<HomePage />} />
@@ -26,6 +27,7 @@ export const Routes = createRoutesFromElements(
                       <Route path="Chat" element={<ProtectedRoute><Chat /></ProtectedRoute>} />
                       <Route path="tool" element={<ProtectedRoute><Tool /></ProtectedRoute>} />
                       <Route path="exercise" element={<ProtectedRoute><Exercise /></ProtectedRoute>} />
+                      <Route path="psychologicalThoughts" element={<ProtectedRoute><PsychologicalThoughts /></ProtectedRoute>} />
                       <Route path="todo" element={<Todo />}>
                                  <Route path="list" element={<TodoList />} />
                                  <Route path="add" element={<AddTodo />} />
