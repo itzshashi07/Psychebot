@@ -74,7 +74,7 @@ const Register = () => {
         {errors?.fullName?.type === "pattern" && (
           <p className="error ">Alphabetical characters only</p>
         )}
-        <p className="text-[20px]   font-[600]  my-4">
+        <p className="text-[20px]   font-[600]  my-2">
           <span className="text-[#000] text-left">Email</span>{' '}
           <span className="text-[#AE1438]">*</span>
         </p>
@@ -108,7 +108,7 @@ const Register = () => {
           <p className="error">please write correct email address</p>
         )}
 
-        <p className="text-[20px]   font-[600]  my-4">
+        <p className="text-[20px]   font-[600]  my-2">
           <span className="text-[#000] text-left">Password</span>{' '}
           <span className="text-[#AE1438]">*</span>
         </p>

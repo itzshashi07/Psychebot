@@ -7,7 +7,7 @@ export const useFinalData = () => {
 
            const { id } = useContext(AuthContext)
 
-           const dataRef = ref(database, 'todo/' + id);
+           const dataRef = ref(database, 'todo/' );
 
            const fetchData = useCallback(() => {
                       const fetchDataPromise = new Promise((resolve) => {

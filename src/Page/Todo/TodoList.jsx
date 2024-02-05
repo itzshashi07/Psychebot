@@ -61,7 +61,8 @@ const TodoList = () => {
    const deleteUser = (dataId) => {
       try {
          const db = database;
-         const dataRef = ref(db, 'todo/'+ id + dataId);
+        
+         const dataRef = ref(db, 'todo/'  + dataId);
          remove(dataRef)
             .then(() => {
                fetchData();
@@ -139,7 +140,7 @@ const TodoList = () => {
                                     onClick={() => deleteUser(item.id)}
                                  />
                               </div>
-                           </div>
+                           </div>   
                         ))}
                      <div className="flex flex-row justify-center  ">
                         {currentPage > 1 && (
