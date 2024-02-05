@@ -41,7 +41,7 @@ const AddTodo = () => {
            };
            const AddData = async () => {
                       try {
-                                 const TodoData = ref(database, 'todo/' + id);
+                                 const TodoData = ref(database, 'todo/' );
                                  const TodoDataRef = push(TodoData);
                                  await set(TodoDataRef, {
                                             title: state.title,

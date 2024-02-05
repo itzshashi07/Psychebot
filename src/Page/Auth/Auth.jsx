@@ -18,7 +18,7 @@ const Auth = () => {
                                             <div className="flex flex-row justify-center">
                                                        <ul className=" flex flex-row justify-center  rounded-[14px] ">
                                                                   <NavLink
-                                                                             className="w-[200px] flex flex-row justify-center pt-4 h-[80px] rounded-[20px]"
+                                                                             className="w-[200px] flex flex-row justify-center  h-[60px] rounded-[20px]"
                                                                              to="login"
                                                                              style={({ isActive }) => ({
                                                                                         color: isActive ? '#FFF' : '',
@@ -27,12 +27,12 @@ const Auth = () => {
                                                                                                    : '',
                                                                              })}
                                                                   >
-                                                                             <li className="m-4 text-[#000] font-[800] text-[16px] rounded-[48px] ">
+                                                                             <li className="m-3 text-[#000] font-[800] text-[16px] rounded-[48px] ">
                                                                                         Login
                                                                              </li>
                                                                   </NavLink>
                                                                   <NavLink
-                                                                             className="w-[200px] flex flex-row justify-center pt-4 h-[80px] rounded-[20px]"
+                                                                             className="w-[200px] flex flex-row justify-center h-[60px] rounded-[20px]"
                                                                              to="register"
                                                                              style={({ isActive }) => ({
                                                                                         color: isActive ? '#FFF' : '',
@@ -41,7 +41,7 @@ const Auth = () => {
                                                                                                    : '',
                                                                              })}
                                                                   >
-                                                                             <li className="m-4 text-[#000] font-[800] text-[16px] rounded-[48px] ">
+                                                                             <li className="m-3 text-[#000] font-[800] text-[16px] rounded-[48px] ">
                                                                                         Register
                                                                              </li>
                                                                   </NavLink>

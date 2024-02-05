@@ -1,15 +1,16 @@
 import { AuthContext } from './AuthContext';
 import {
-  auth
+  auth,storage
 } from '../Firebase/Firebase';
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, } from 'firebase/auth';
 import { useState } from 'react';
 import PropTypes from 'prop-types';
+import { ref, listAll, getDownloadURL } from 'firebase/storage';
 const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [id,setId]=useState()
   const [error, setError] = useState(null);
-
+  const[images,setImages]=useState()
   const createUser = async (email, password) => {
     try {
       const userCredential = await createUserWithEmailAndPassword(auth, email, password);
@@ -60,10 +61,34 @@ const AuthProvider = ({ children }) => {
     localStorage.removeItem('user');
     return signOut(auth);
   };
+  
+  const GetImage = async () => {
+    try {
+      const storageRef = ref(storage, 'images');
+      const imagesList = await listAll(storageRef);
+      const urls = await Promise.all(
+        imagesList.items.map(async (item) => {
+          const url = await getDownloadURL(item);
+          return url;
+        }),
+      );
+  
+      const imageUrls = urls.map((url) => {
+        return{
+          url
+        }
+   
+      });
+      setImages(imageUrls);
+    } catch (error) {
+      console.error('Error fetching images:', error);
+    }
+  };
+  GetImage()
 
   return (
     <div>
-      <AuthContext.Provider value={{ user, error, createUser, signIn, logout, id }}>
+      <AuthContext.Provider value={{ user, error, createUser, signIn, logout, id,images }}>
         {children}
       </AuthContext.Provider>
     </div>
