@@ -3,7 +3,7 @@ import {
   auth,storage
 } from '../Firebase/Firebase';
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, } from 'firebase/auth';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { ref, listAll, getDownloadURL } from 'firebase/storage';
 const AuthProvider = ({ children }) => {
@@ -80,12 +80,16 @@ const AuthProvider = ({ children }) => {
    
       });
       setImages(imageUrls);
+      console.log(imageUrls)
     } catch (error) {
       console.error('Error fetching images:', error);
     }
   };
-  GetImage()
-
+ 
+  useEffect(()=>{
+    GetImage()
+  },[])
+console.log(images)
   return (
     <div>
       <AuthContext.Provider value={{ user, error, createUser, signIn, logout, id,images }}>

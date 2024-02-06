@@ -3,7 +3,7 @@
         {
             "name": "Push-ups",
             "description": "Strengthen your upper body with this classic exercise. Start in a plank position, lower your body until your chest nearly touches the ground, then push back up.",
-            "image": "https://example.com/push-ups.jpg"
+            "image": "../assets/logo.png"
         },
         {
             "name": "Squats",
